@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *_strcat - function commute srt
+ **_strcat - function commute strings
  * @dest: param pointer to a char
- * @src: pointer to a char
- * Return: dest value return
+ * @src: param pointer to a char
+ * Return: return value of dest
  */
 
 char *_strcat(char *dest, char *src)
@@ -19,6 +19,7 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
+
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
@@ -29,4 +30,3 @@ char *_strcat(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
-
