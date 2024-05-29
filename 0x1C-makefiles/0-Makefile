@@ -1,2 +1,3 @@
-all: main.c AlxSE.c
-	gcc main.c AlxSE.c -o AlxSE
+all: main.c school.c
+	gcc main.c school.c -o school
+
